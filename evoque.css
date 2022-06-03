@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+}
+.car img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.car h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6495ED;
+}
+.car p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.car .btn{
+    padding: 10px 20px;
+    background: #6495ED;
+    color: #FFF;
+    border-radius: 0.5rem;
+}
+.car .btn:hover{
+    background: black;
+}

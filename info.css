@@ -1,0 +1,46 @@
+body {
+    background: url("https://www.mmppicture.co.in/wp-content/uploads/2019/07/Free-Stock-Photos-Car-Background-Images.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    
+  }
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+   
+    
+    
+}
+.about-img{
+    width: 50%;
+    
+
+}
+.about-text span{
+    font-weight: 500;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.about-text p{
+    margin: 0.5rem 0 1.4rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+.about-text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.about-text h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}

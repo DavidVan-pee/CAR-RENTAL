@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module">
+        
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js";
+        
+      
+      </script> 
+    <title>CAR RENTAL SERVICES WEBSITE</title>
+    <!-- Link to CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box icons-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <a href="#" class="logo"><img src="https://www.logolynx.com/images/logolynx/98/98d428f287bd3531717b4d75adce78de.jpeg"></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home"><b>Home</b></a></li> 
+            <li><a href="#ride"><b>Ride</b></a></li> 
+            <li><a href="#services"><b>Services</b></a></li> 
+            <li><a href="#about"><b>About Us</b></a></li>
+            <li><a href="#reviews"><b>Reviews</b></a></li> 
+        </ul>
+        <div class="header-btn">
+            <a href="signup.html" class="sign-up">Sign Up</a>
+            <a href="signin.html" class="sign-in">Sign In</a>
+        </div>
+    </header>
+    <!--home-->
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Looking</span> to<br> rent a car</h1>
+            <p> Interested in car rental? Look no further. <b>Vroom Rentals</b> <br> has your best interest at heart.We provide excellent<br> services and our cars are in top quality shape and are<br> of the latest models</p>
+            
+            
+        </div>
+
+        <div class="form-container">
+            <form actions"">
+                <div class="input box">
+                    <span><b>Location</b></span>
+                    <input type="search" name="" id="" placeholder="Search Places">
+                    
+                </div>
+                <div class="input box">
+                    <span><b>Pick-up date</b></span>
+                    <input type="date" name="" ids="">
+
+                </div>
+                <div class="input box">
+                    <span><b>Return date</b></span>
+                    <input type="date" name="" ids="">
+
+                </div>
+                <input type="submit" name="" id="" class="btn">
+            </form>
+        </div>
+
+        
+
+        </div>
+    </section>
+
+    <!--Ride-->
+    <section class="ride" id="ride">
+        <div class="heading">
+            <span>How it works</span>
+            <h1>Rent with 3 easy steps</h1>
+        </div>
+        <div class="ride-container">
+             <div class="box">
+                <i class="bx bxs-map"></i>
+                <h2>Choose a location</h2>
+                <p>A location is needed for you to be sure how far you are or near to the place</p>
+
+             </div>
+
+             
+        
+        <div class="box">
+             <i class="bx bxs-calendar-check"></i>
+            <h2>Pick up date</h2>
+            <p>Choose a day you would like to come for the car you are about to rent. </p>
+    </div>
+    <div class="box">
+        <i class='bx bx-calendar-star'></i>
+        <h2>Book a car</h2>
+        <p>Take a careful glance through the list of cars available for rental and pick the one you might like or feel comfortable best with.</p>
+</div>
+    </section>
+    <!--Services-->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Best Services</span>
+            <h1>Explore our major deals<br> and choose a car of your choice</h1>
+        </div>
+         <div class="services-container">
+             <div class="box">
+                 <div class="box-img">
+                     <img src="https://cdn.carbuzz.com/gallery-images/2022-hyundai-elantra-carbuzz-776550.jpg" alt="">
+                 </div>
+                 <p>2020</p>
+                 <h3>Hyundai elantra </h3>
+                 <h2>$400.00 <span>week</span></h2>
+                 <a href="elantra.html" class="btn">Available for Rental</a>
+                 
+             </div>
+
+             <div class="box">
+                <div class="box-img">
+                    <img src="https://www.byri.net/wp-content/uploads/2021/06/Bugatti-The-Black-Car-Finally-the-definitive-version.jpg" alt="">
+                </div>
+                <p>2020</p>
+                <h3>Bugatti Veyron </h3>
+                <h2>$1,800.00 <span>week</span></h2>
+                <a href="veron.html" class="btn">Available for Rental</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa09s2wjsXoOMDXCpNZpwXX-MSmLGXvQHH7iQTQuFBRHcDXNMS2n3FuRVPsLO5a2_EZrQ&usqp=CAU" alt="">
+                </div>
+                <p>2016</p>
+                <h3>Toyota Yarris </h3>
+                <h2>$400.00 <span>week</span></h2>
+                <a href="yarris.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://capitalauto-al.com/wp-content/uploads/2016/07/zbmw_075.jpg" alt="">
+                </div>
+                <p>2017</p>
+                <h3>BMW i8</h3>
+                <h2>$1000.00 <span>week</span></h2>
+                <a href="bmw.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://www.topgear.com/sites/default/files/cars-car/image/2019/03/rr_evq_20my_yulong_dynamic_006.jpg" alt="">
+                </div>
+                <p>2018</p>
+                <h3>Range Rover Evoque </h3>
+                <h2>$1,400.00 <span>week</span></h2>
+                <a href="evoque.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://images.hgmsites.net/hug/2022-honda-civic-sdn_100810827_h.jpg" alt="">
+                </div>
+                <p>2019</p>
+                <h3>Honda Civic </h3>
+                <h2>$400.00 <span>week</span></h2>
+                <a href="civic.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://media.ed.edmunds-media.com/jeep/wrangler/2020/oem/2020_jeep_wrangler_convertible-suv_willys_fq_oem_1_1280.jpg" alt="">
+                </div>
+                <p>2022</p>
+                <h3>Jeep Wrangler</h3>
+                <h2>$1,800.00 <span>week</span></h2>
+                <a href="jeep.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://media.ed.edmunds-media.com/hyundai/tucson/2022/oem/2022_hyundai_tucson_4dr-suv_limited_fq_oem_1_1600.jpg" alt="">
+                </div>
+                <p>2020</p>
+                <h3>Hyundai Tuccson </h3>
+                <h2>$1,800.00 <span>week</span></h2>
+                <a href="tuccson.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://www.cnet.com/a/img/resize/13c3bbb41f7dc7023e7754854a574628f3b23942/hub/2022/04/02/c5b469ff-ae1d-4d0a-a026-fae4ac8747a7/aventador-ogi.jpg?auto=webp&fit=crop&height=675&width=1200" alt="">
+                </div>
+                <p>2021</p>
+                <h3>Lamborghini Aventador </h3>
+                <h2>$2,000.00 <span>week</span></h2>
+                <a href="lambo.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://cdn.jdpower.com/JDPA_2020%20Chevrolet%20Camaro%20LT1%20Satin%20Steel%20Front%20Quarter%20View%20Small.jpg" alt="">
+                </div>
+                <p>2017</p>
+                <h3>Chevy Camaro </h3>
+                <h2>$1,800.00 <span>week</span></h2>
+                <a href="chevy.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://cars.usnews.com/static/images/Auto/izmo/i159614887/2022_nissan_altima_angularfront.jpg" alt="">
+                </div>
+                <p>2016</p>
+                <h3>Nissan Altima </h3>
+                <h2>$800.00 <span>week</span></h2>
+                <a href="altima.html" class="btn">Available for Rental</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://cdn-jaguarlandrover.com/api/v1/image/24721/w/1000.jpg" alt="">
+                </div>
+                <p>2020</p>
+                <h3>Land Rover Defender </h3>
+                <h2>$1,600.00 <span>week</span></h2>
+                <a href="defender.html" class="btn">Available for Rental</a>
+            </div>
+         </div>   
+        
+    </section>
+    <!--About Page-->
+    <section class="about" id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Everything you need to know before we begin</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="https://www.designrush.com/uploads/users/customer-11/image_1526479777_RYv4kDbzP5OgvDePRfi9jcp8zE9ql3hSAb2ZBmHE.jpeg" alt="">
+            </div>
+          <div class="about-text">
+              <span>About Us</span>
+              <p>Vroom Services is a car rental company located in East Legon. We provide services to people living close there and it's environs. The address is P.0 Box 712, Oblogo Road opposite the Goil filling station.</p>
+              <p>We deal with all kinds of cars ranging from normal commercial cars such as the Toyota Yarris to high end luxury cars such as the Lamborghini Aventador. Our prices are fixed as seen on the website and non-negotiable. Discount offers can be given to customers during special seasons like Christmas or some holidays</p>
+              <a href="info.html" class="btn">Learn More</a>
+
+          </div>
+    </section>
+    <!--Reviews-->
+     <section class="reviews" id="reviews">
+         <div class="heading">
+             <span>Reviews</span>
+             <h1>What our customers think</h1>
+         </div>
+         <div class="reviews-container">
+             <div class="box">
+                 <div class="rev-img">
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU" alt="">
+                 </div>
+                 <h2>Ethan</h2>
+                 <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                    
+                 </div>
+                 <p>As a foreigner new to the country, I needed a temporary car to help me move about. That's when i turned to Vroom services and I did not regret it. Excellent service and I will definitely suggest it to my friends in csse they visit the country</p>
+             </div>
+
+             <div class="box">
+                <div class="rev-img">
+                    <img src="dennis.jpg" alt="">
+                </div>
+                <h2>Dennis</h2>
+                <div class="stars">
+                   <i class='bx bxs-star'></i>
+                   <i class='bx bxs-star'></i>
+                   <i class='bx bxs-star'></i>
+                   <i class='bx bxs-star'></i>
+                   <i class='bx bxs-star-half' ></i>
+                   
+                </div>
+                <p>Vroom services is such a reliable company. The renting process was quite smooth. The staff offered the best help and advice to me when I wasn't too sure of the ride i wanted</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/175/MGM2777-350x233.jpg" alt="">
+                </div>
+                <h2>Stacy Owusu</h2>
+                <div class="stars">
+                   <i class='bx bxs-star'></i>
+                   <i class='bx bxs-star'></i>
+                   <i class='bx bxs-star'></i>
+                   <i class='bx bxs-star'></i>
+                   <i class='bx bxs-star'></i>
+                   
+                </div>
+                <p>Vroom Rentals is such a reliable company. The renting process was quite smooth. The staff offered the best help and advice to me when I wasn't too sure of the ride i wanted</p>
+            </div>
+         </div>
+     </section>
+     <div class="copyright">
+         <p>&#169; Vroom Rentals All Rights Reserved</p>
+         <div class="social">
+             <a href="#"><i class='bx bxl-facebook'></i></a>
+             <a href="#"><i class='bx bxl-twitter'></i></a>
+             <a href="#"><i class='bx bxl-instagram'></i></a>
+         </div>
+     </div>
+
+    <!-- Link To JS-->
+    <script src="main.js"></script>
+
+    <script src="Firebase.js"></script>
+    <script src="signin.js"></script>
+ 
+
+</body>
+</html>
+
+
